@@ -35,6 +35,8 @@ h1 { font-size: clamp(40px, 6vw, 54px); line-height: 1; margin: 0 0 20px; }
 h2 { font-size: 32px; line-height: 1.08; margin: 0 0 24px; }
 .section-body > p { color: var(--muted); font-size: 15px; line-height: 1.72; margin: 0 0 16px; max-width: 690px; }
 .section-body > p:last-child { margin-bottom: 0; }
+.inline-link { color: var(--ink); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
+.inline-link:hover { color: var(--accent); text-decoration-color: currentColor; }
 .about-links { margin-top: 28px; }
 .about-links .paper-group-label { margin-bottom: 12px; }
 .section-heading-row { align-items: baseline; display: flex; justify-content: space-between; }
